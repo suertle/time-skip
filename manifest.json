@@ -1,0 +1,17 @@
+{
+  "name": "Time Skip Extension",
+  "description": "Extension นี้ เกิดขึ้นมาได้จากความขี้เกียจของตัวข้าพเจ้าเอง",
+  "version": "1.0", // ตลอดไป
+  "manifest_version": 3,
+  "action": {
+    // "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ]
+}
