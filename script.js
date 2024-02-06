@@ -1,4 +1,4 @@
-var interval = 5000;
+var interval = 3000;
 
 setInterval(function() {
   var skb = document.querySelector(".ytp-ad-skip-button-modern");
@@ -6,7 +6,7 @@ setInterval(function() {
 
   if (skb) {
     console.log("Found (Skip)");
-    skb.click();
+    document.querySelector("video").currentTime = document.querySelector("video").duration;
     console.log("Click Skip");
   } else if (pvb) {
     console.log("Found (Preview)");
