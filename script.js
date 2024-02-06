@@ -1,4 +1,4 @@
-var interval = 2000;
+var interval = 1000;
 
 setInterval(function() {
   var skb = document.querySelector(".ytp-ad-skip-button-modern");
