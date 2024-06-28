@@ -1,6 +1,6 @@
 var found = false
-var interval = 1000;
-var delay = 500;
+var interval = 500;
+var delay = 1000;
 
 setInterval(function() {
   var skb = document.querySelector(".ytp-skip-ad-button");
